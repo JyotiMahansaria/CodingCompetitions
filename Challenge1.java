@@ -50,8 +50,7 @@ import java.io.*;
 import java.util.*;
 public class TecGig1 {
     public static void main(String args[] ) throws Exception {
-
-        //Write code here
+     
         Scanner scanner = new Scanner(System.in);
         int numberOfTests = scanner.nextInt();
         for(int t = 1; t <= numberOfTests; t++){
