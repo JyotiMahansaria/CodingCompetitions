@@ -10,7 +10,7 @@ public class Solution {
         }
         return countOfPrimeNumber;
     }
-
+// If A Number has exactly 2 factors then its a Prime Number. 1 is not a prime number as it has only 1 factor. 
     public boolean isPrimeNumber(int A) {
         int count = countFactors(A);
         if(count == 2){
@@ -21,7 +21,7 @@ public class Solution {
 
     public int countFactors(int A){
         int count = 0;
-        for(int i = 1; i<=Math.sqrt(A); i++){
+        for(int i = 1; i <= Math.sqrt(A); i++){
             
             if(A%i == 0){ // check if i is a factor
                 if(i == A/i){ // check if its a perfect square root
